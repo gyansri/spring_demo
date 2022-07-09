@@ -1,0 +1,25 @@
+spring:
+  datasource:
+    username: postgres
+    url: jdbc:postgresql://localhost:5432/postgres
+    password: admin
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+    show-sql: 'true'
+    hibernate:
+      ddl-auto: update
+
+welcome:
+  message: Welcome to Daily Code !!
+server:
+  port: '8082'
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
