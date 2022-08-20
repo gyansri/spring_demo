@@ -28,4 +28,5 @@ public class RegistrationController {
         ));
         return "success";
     }
+
 }
