@@ -34,6 +34,6 @@ class CourseMeterialRepositoryTest {
     @Test
     public void printAllCourse(){
         List<CourseMeterial> courseMeterialList = courseMeterialRepository.findAll();
-        System.out.println(courseMeterialList);
+
     }
 }

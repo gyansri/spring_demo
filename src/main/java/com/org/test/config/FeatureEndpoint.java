@@ -6,4 +6,5 @@ import org.springframework.stereotype.Component;
 @Component
 @Endpoint(id = "features")
 public class FeatureEndpoint {
+    // Locaj=l Host
 }
